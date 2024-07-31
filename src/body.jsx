@@ -148,7 +148,7 @@ const Body = () => {
 const styles = {
   container: {
     width: '100%',
-    padding: '20px',
+    padding: '2rem',
     boxSizing: 'border-box',
   },
   main: {
@@ -156,49 +156,49 @@ const styles = {
     flexDirection: 'column',
     alignItems: 'center',
     backgroundColor: '#f5f5f5',
-    padding: '20px',
+    padding: '2rem',
   },
   searchSection: {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
     background: 'LightCyan',
-    padding: '20px',
-    borderRadius: '12px',
-    boxShadow: '0 8px 16px rgba(0, 0, 0, 0.1)',
-    width: '100%', // Full width of the container
+    padding: '2rem',
+    borderRadius: '0.75rem',
+    boxShadow: '0 0.5rem 1rem rgba(0, 0, 0, 0.1)',
+    width: '100%',
     textAlign: 'center',
     fontFamily: 'Coneria',
-    boxSizing: 'border-box', // Ensure padding is included in the width
+    boxSizing: 'border-box',
     transition: 'transform 0.3s ease-in-out',
   },
   heading: {
     fontWeight: 'bold',
-    fontSize: '28px',
-    marginBottom: '20px',
-    color: '#333', // Dark text color for better contrast
+    fontSize: '2rem',
+    marginBottom: '1.25rem',
+    color: '#333',
     fontFamily: 'Coneria',
     animation: 'fadeIn 1s ease-in-out',
   },
   input: {
-    marginBottom: '20px',
-    padding: '12px',
-    borderRadius: '8px',
+    marginBottom: '1.25rem',
+    padding: '0.75rem',
+    borderRadius: '0.5rem',
     border: '1px solid #ddd',
     width: '100%',
-    fontSize: '16px',
+    fontSize: '1rem',
     fontFamily: 'Coneria',
     transition: 'border-color 0.3s ease',
   },
   button: {
-    padding: '12px 24px',
+    padding: '0.75rem 1.5rem',
     border: 'none',
-    borderRadius: '8px',
+    borderRadius: '0.5rem',
     backgroundColor: '#007BFF',
     color: '#ffffff',
     cursor: 'pointer',
     fontWeight: 'bold',
-    fontSize: '16px',
+    fontSize: '1rem',
     transition: 'background-color 0.3s ease, transform 0.2s ease',
     fontFamily: 'Coneria',
   },
@@ -207,8 +207,8 @@ const styles = {
     transform: 'scale(1.05)',
   },
   message: {
-    marginTop: '20px',
-    fontSize: '18px',
+    marginTop: '1.25rem',
+    fontSize: '1.125rem',
     color: '#d9534f',
     fontFamily: 'Coneria',
   },
@@ -216,58 +216,58 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'flex-start',
-    marginBottom: '20px',
-    fontSize: '16px',
+    marginBottom: '1.25rem',
+    fontSize: '1rem',
     width: '100%',
   },
   radioLabel: {
     display: 'flex',
     alignItems: 'center',
-    marginBottom: '10px',
-    fontSize: '16px',
+    marginBottom: '0.75rem',
+    fontSize: '1rem',
     cursor: 'pointer',
     fontFamily: 'Coneria',
   },
   radioInput: {
-    marginRight: '10px',
+    marginRight: '0.5rem',
     accentColor: '#007BFF',
     fontFamily: 'Coneria',
   },
   radioText: {
-    fontSize: '16px',
+    fontSize: '1rem',
     fontFamily: 'Coneria',
   },
   contentRow: {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    marginTop: '20px',
+    marginTop: '1.25rem',
     width: '100%',
   },
   textContainer: {
     flex: '1 1 60%',
-    margin: '0 20px',
-    fontSize: '16px',
+    margin: '0 1rem',
+    fontSize: '1rem',
     textAlign: 'left',
     backgroundColor: '#f2f2f2',
-    padding: '20px',
-    borderRadius: '8px',
-    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-    minHeight: '200px', // Ensure there's enough height
-    overflow: 'visible', // Ensure content isn't clipped
+    padding: '1.25rem',
+    borderRadius: '0.5rem',
+    boxShadow: '0 0.25rem 0.5rem rgba(0, 0, 0, 0.2)',
+    minHeight: '12.5rem',
+    overflow: 'visible',
     fontFamily: 'Coneria',
     animation: 'fadeIn 1s ease-in-out',
   },
-  h2:{
-    fontFamily:'Coneria',
+  h2: {
+    fontFamily: 'Coneria',
   },
   companySection: {
-    marginTop: '40px',
+    marginTop: '2.5rem',
     width: '100%',
     textAlign: 'center',
   },
   companyHeading: {
-    fontSize: '24px',
+    fontSize: '1.5rem',
     fontWeight: 'bold',
     color: '#333',
     fontFamily: 'Coneria',
@@ -277,18 +277,17 @@ const styles = {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'center',
-    gap: '20px',
+    gap: '1rem',
     color: 'blue',
-
   },
   companyContainer: {
     display: 'flex',
     alignItems: 'center',
     backgroundColor: '#ffffff',
-    padding: '10px 20px',
-    borderRadius: '8px',
-    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-    fontSize: '18px',
+    padding: '0.5rem 1rem',
+    borderRadius: '0.5rem',
+    boxShadow: '0 0.25rem 0.5rem rgba(0, 0, 0, 0.1)',
+    fontSize: '1.125rem',
     fontWeight: 'bold',
     fontFamily: 'Coneria',
     transition: 'transform 0.3s ease',
@@ -297,15 +296,92 @@ const styles = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    marginLeft: '10px',
-    width: '30px',
-    height: '30px',
+    marginLeft: '0.5rem',
+    width: '1.875rem',
+    height: '1.875rem',
     borderRadius: '50%',
     backgroundColor: '#007BFF',
     color: '#ffffff',
-    fontSize: '16px',
+    fontSize: '1rem',
     fontWeight: 'bold',
   },
 };
+
+// Apply media queries to adjust styles for different screen sizes
+const mediaQueries = `
+  @media (max-width: 768px) {
+    .container {
+      padding: 1rem;
+    }
+    .searchSection {
+      padding: 1rem;
+    }
+    .heading {
+      fontSize: 1.5rem;
+    }
+    .input {
+      fontSize: 0.875rem;
+    }
+    .button {
+      fontSize: 0.875rem;
+    }
+    .message {
+      fontSize: 1rem;
+    }
+    .radioGroup {
+      fontSize: 0.875rem;
+    }
+    .textContainer {
+      margin: 0.5rem;
+      fontSize: 0.875rem;
+    }
+    .companyHeading {
+      fontSize: 1.25rem;
+    }
+    .companyContainer {
+      fontSize: 1rem;
+    }
+    .circle {
+      fontSize: 0.875rem;
+    }
+  }
+  @media (max-width: 480px) {
+    .searchSection {
+      padding: 0.5rem;
+    }
+    .heading {
+      fontSize: 1.25rem;
+    }
+    .input {
+      fontSize: 0.75rem;
+    }
+    .button {
+      fontSize: 0.75rem;
+    }
+    .message {
+      fontSize: 0.875rem;
+    }
+    .radioGroup {
+      fontSize: 0.75rem;
+    }
+    .textContainer {
+      fontSize: 0.75rem;
+    }
+    .companyHeading {
+      fontSize: 1rem;
+    }
+    .companyContainer {
+      fontSize: 0.875rem;
+    }
+    .circle {
+      fontSize: 0.75rem;
+    }
+  }
+`;
+
+// Inject media queries into the document
+const styleElement = document.createElement('style');
+styleElement.textContent = mediaQueries;
+document.head.appendChild(styleElement);
 
 export default Body;
